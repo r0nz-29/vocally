@@ -33,6 +33,9 @@ Wrote tests using jest, located [here](https://github.com/r0nz-29/vocally/blob/m
 ## Logs
 Real time logging functionality in a separate container using websockets. Each route has a middleware [logger](https://github.com/r0nz-29/vocally/blob/master/api/middleware/logger.js) which [logs the current request's path](https://github.com/r0nz-29/vocally/blob/master/api/routes/book.js#L7-L15) to a terminal running on a separate container using websockets.  
 
+## Special message on any update event  
+Made use of javascript's `EventEmitter`, that [logs a certain message](https://github.com/r0nz-29/vocally/blob/bd7b99677fc69028c7132a39883ba38880bc6314/api/server.js#L25-L27) on the console whenever an `updateEvent` is [emitted](https://github.com/r0nz-29/vocally/blob/bd7b99677fc69028c7132a39883ba38880bc6314/api/controllers/book.js#L36).
+
 ## Schemas  
 ### Book  
 - `string` title
