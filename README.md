@@ -50,4 +50,7 @@ Made use of javascript's `EventEmitter`, that [logs a certain message](https://g
 - `string` email 
 - `string` pwd 
 - `string` add 
-- `Array.of(ObjectId)` books 
+- `Array.of(ObjectId)` books  
+
+![Screenshot from 2023-02-11 22-58-13](https://user-images.githubusercontent.com/76162540/218272307-4b4a9825-c7c9-4f8c-bada-85e7a3f4c99d.png)
+![image](https://user-images.githubusercontent.com/76162540/218272504-cc5a395a-7b11-4b3b-97d3-2b72e5d7ff4a.png)
