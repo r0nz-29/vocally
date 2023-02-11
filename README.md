@@ -24,6 +24,9 @@ Using docker-compose
 $ docker-compose up
 ```
 
+## Rate Limiting  
+Used `nginx.conf` to implement rate limiting [here](https://github.com/r0nz-29/vocally/blob/1b25259c6e5a7b51d47da43c12df09874efd312a/nginx/nginx.conf#L15)
+
 ## Schemas  
 ### Book  
 - `string` title
